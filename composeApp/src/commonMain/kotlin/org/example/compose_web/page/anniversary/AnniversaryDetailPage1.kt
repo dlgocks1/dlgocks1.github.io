@@ -93,11 +93,12 @@ fun AnniversaryDetailPage1(
             }
 
             Text(
-                text = "1st Anniversary",
+                text = "1st\nAnniversary",
                 fontSize = 16.sp,
                 fontFamily = font,
                 color = Color.White,
                 modifier = Modifier.padding(top = 16.dp),
+                textAlign = TextAlign.Center,
             )
 
             Spacer(modifier = Modifier.height(36.dp))

@@ -69,7 +69,7 @@ fun AnniversaryDetailPage2(
         Column(
             modifier = Modifier.align(Alignment.Center)
                 .fillMaxWidth()
-                .wrapContentHeight(),
+                .fillMaxHeight(0.65f),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterVertically),
         ) {
@@ -77,7 +77,6 @@ fun AnniversaryDetailPage2(
                 state = imagePagerState,
                 contentPadding = PaddingValues(horizontal = 32.dp),
                 modifier = Modifier.fillMaxWidth()
-                    .height(550.dp)
             ) { page ->
                 Column(
                     modifier = Modifier
