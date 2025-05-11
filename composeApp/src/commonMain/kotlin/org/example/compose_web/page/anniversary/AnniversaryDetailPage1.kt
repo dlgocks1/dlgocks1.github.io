@@ -44,7 +44,7 @@ fun AnniversaryDetailPage1(
             modifier = Modifier
                 .fillMaxSize()
                 .paint(
-                    painterResource(Res.drawable.background_1),
+                    painterResource(Res.drawable.background_2),
                     contentScale = androidx.compose.ui.layout.ContentScale.Crop
                 )
         )
@@ -58,7 +58,7 @@ fun AnniversaryDetailPage1(
         ) {
 
             Image(
-                painter = painterResource(Res.drawable.visual_logo), // 이미지 리소스 준비 필요
+                painter = painterResource(Res.drawable.visual_logo),
                 contentDescription = null,
                 modifier = Modifier
                     .size(200.dp)

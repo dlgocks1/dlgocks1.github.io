@@ -66,9 +66,8 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
             implementation(compose.components.resources)
+            implementation(libs.coil.compose)
 
-//            implementation("androidx.compose.ui:ui-tooling-preview:1.7.8")
-//            implementation("org.jetbrains.compose.ui:ui-tooling-preview:1.6.10") // 버전은 프로젝트에 맞게 조정
         }
     }
 }

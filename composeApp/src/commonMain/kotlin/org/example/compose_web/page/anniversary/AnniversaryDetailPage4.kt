@@ -34,10 +34,7 @@ import kotlin.math.absoluteValue
 
 
 @Composable
-fun AnniversaryDetailPage4(
-    pagerState: PagerState,
-    scope: CoroutineScope,
-) {
+fun AnniversaryDetailPage4() {
     val font = FontFamily(Font(Res.font.NanumMyeongjo))
 
     Box(

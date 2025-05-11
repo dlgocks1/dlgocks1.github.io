@@ -26,7 +26,7 @@ fun AnniversaryMainPage() {
                 0 -> AnniversaryDetailPage1(pagerState, scope)
                 1 -> AnniversaryDetailPage3(pagerState, scope)
                 2 -> AnniversaryDetailPage2(pagerState, scope)
-                else -> AnniversaryDetailPage4(pagerState, scope)
+                else -> AnniversaryDetailPage4()
             }
         }
     }

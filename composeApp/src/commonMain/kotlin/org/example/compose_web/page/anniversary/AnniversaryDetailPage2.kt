@@ -147,7 +147,7 @@ fun AnniversaryDetailPage2(
         Button(
             onClick = {
                 scope.launch {
-                    pagerState.animateScrollToPage(pagerState.currentPage + 1) // 첫 번째 페이지로 돌아가기
+                    pagerState.animateScrollToPage(pagerState.currentPage + 1)
                 }
             },
             colors = ButtonDefaults.buttonColors(backgroundColor = Color.Transparent),
